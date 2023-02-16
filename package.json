@@ -2,7 +2,7 @@
   "name": "weekly-planner",
   "version": "1.0.0",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --open",
     "test": "vitest",
     "coverage": "vitest --coverage",
     "build": "tsc && vite build",
