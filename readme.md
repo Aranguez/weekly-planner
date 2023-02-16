@@ -3,7 +3,7 @@
   <img src="./src/assets/weekly-planner-logo.png" alt="weekly-planner-logo" width="300">
 </h1>
 
-<h4 align="center">A minimal todo app built on top of <a href="https://es.reactjs.org/" target="_blank">React.js</a>.</h4>
+<h4 align="center">A minimal todo app built on top of <a href="https://nextjs.org/" target="_blank">Next.js</a>.</h4>
 
 <br>
 <br>
