@@ -1,39 +1,31 @@
 {
   "name": "weekly-planner",
-  "version": "1.0.0",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "test": "vitest",
-    "coverage": "vitest --coverage"
+    "lint": "next lint"
   },
   "dependencies": {
-    "@vitejs/plugin-react": "^3.1.0",
-    "next": "^13.1.6",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "vite-tsconfig-paths": "^4.0.5"
+    "@next/font": "13.1.6",
+    "@types/node": "18.13.0",
+    "@types/react": "18.0.28",
+    "@types/react-dom": "18.0.11",
+    "eslint": "8.34.0",
+    "eslint-config-next": "13.1.6",
+    "next": "13.1.6",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.7.1",
+    "typescript": "4.9.5",
+    "uuid": "^9.0.0"
   },
   "devDependencies": {
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^14.4.3",
-    "@types/react": "^18.0.27",
-    "@types/react-dom": "^18.0.10",
-    "@vitest/coverage-c8": "^0.28.4",
-    "happy-dom": "^8.2.6",
-    "standard": "^17.0.0",
-    "typescript": "^4.9.3",
-    "vitest": "0.28.4"
-  },
-  "eslintConfig": {
-    "extends": "./node_modules/standard/eslintrc.json"
-  },
-  "prettier": {
-    "singleQuote": true,
-    "trailingComma": "none",
-    "semi": false,
-    "tabWidth": 2
+    "@types/uuid": "^9.0.0",
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.7"
   }
 }

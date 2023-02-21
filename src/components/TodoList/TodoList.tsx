@@ -1,6 +1,8 @@
 import { FC } from 'react'
 
-import { Task } from 'types'
+import { Task } from '../../types'
+
+import styles from './TodoList.module.css'
 
 export type Props = {
   tasks: Task[]
@@ -11,7 +13,13 @@ const TodoList: FC<Props> = ({ tasks }) => {
     <div>
       <ul>
         {tasks.map((task) => (
-          <li key={task.id}>{task.title}</li>
+          <li key={task.id}>
+            <label className={styles.label}>
+              <input type="checkbox" className={styles.input} />
+              <span className={styles.span}></span>
+            </label>
+            {task.title}
+          </li>
         ))}
       </ul>
     </div>
