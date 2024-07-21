@@ -1,4 +1,3 @@
-import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import { screen, render, cleanup, waitFor } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 
@@ -6,8 +5,8 @@ import Todo from './Todo'
 
 const defaultProps = {
   title: 'todo title',
-  onEdit: vi.fn(),
-  onDelete: vi.fn()
+  onEdit: jest.fn(),
+  onDelete: jest.fn()
 }
 
 describe('Todo component', () => {
