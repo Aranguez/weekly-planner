@@ -9,7 +9,6 @@
   width: 2em;
   background: black;
   border-radius: 100%;
-  /* transition: all 0.7s; */
 }
 
 .span:after {
@@ -23,11 +22,11 @@
   left: 0.75em;
   top: 0.35em;
   opacity: 0;
-  /* transition: .3s ease; */
 }
 
 .label {
   font-size: 1em;
+  height: 2em;
   cursor: pointer;
 }
 
